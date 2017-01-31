@@ -1,0 +1,262 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+Here's where you can start getting into the good stuff.
+This size will work on iPads, other tablets, and desktops.
+So you can start working with more styles, background images,
+and other resources. You'll also notice the grid starts to
+come into play. Have fun!
+
+******************************************************************/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+
+.wrap {
+width: 760px;
+}
+
+/*********************
+HEADER STYLES
+*********************/
+
+
+.header {
+
+
+	#inner-header {
+		position: relative;
+
+		#logo {
+			display: inline;
+		}
+
+		.social-link {
+		padding: 2em 1em 1em 1em;
+		outline: 0;
+		float: none;
+		position: absolute;
+		top: 7%;
+		}
+
+		#fb-link {
+			left: 82%;
+		}
+
+		#insta-link {
+			left: 75%;
+		}
+
+		#twitter-link {
+			left: 68%;
+		}
+	}
+}
+
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+// #menu-container {
+// 	width: 30%;
+// 	float: right;
+
+
+
+	.hamburger {
+		position: absolute;
+		top: 20%;
+		left: 90%;
+	}
+
+
+	nav {
+		width: 10%;
+		position: absolute;
+		top: 90%;
+		left: 88%;
+	}
+
+	.nav {
+		border: 0;
+		ul {
+			background: $black;
+			margin-top:0;
+		}
+
+		li {
+			border-bottom: 0;
+			padding: 0.7em 0;
+
+			a {	
+				
+
+				/*
+				you can use hover styles here even though this size
+				has the possibility of being a mobile device.
+				*/
+				// &:hover, &:focus {
+					//color: $white;
+					
+				}
+			}
+
+			// &:first-child {}
+			// &:last-child {}
+
+			/*
+			plan your menus and drop-downs wisely.
+			*/
+		// 	ul.sub-menu,
+		// 	ul.children {
+		// 		margin-top: 0;
+		// 		border: 1px solid #ccc;
+		// 		border-top: 0;
+		// 		position: absolute;
+		// 		visibility: hidden;
+		// 		z-index: 8999;
+
+		// 		li {
+
+		// 			a {
+		// 				padding-left: 10px;
+		// 				border-right: 0;
+		// 				display: block;
+		// 				width: 180px;
+		// 				border-bottom: 1px solid #ccc;
+
+		// 				&:hover,
+		// 				&:focus {}
+
+		// 				&:link {}
+		// 			}
+
+		// 			&:first-child {}
+
+		// 			&:last-child {
+
+		// 				a {
+		// 					border-bottom: 0;
+		// 				}
+		// 			}
+
+		// 			/*
+		// 			if you need to go deeper, go nuts
+		// 			just remember deeper menus suck
+		// 			for usability. k, bai.
+		// 			*/
+		// 			ul {
+		// 				top:0;
+		// 				left:100%;
+		// 			}
+		// 		}
+
+		// 		/* highlight sub-menu current page */
+		// 		li.current-menu-item,
+		// 		li.current_page_item,
+		// 		li.current_page_ancestor {
+		// 			a {}
+		// 		}
+		// 	}
+
+		// 	/* showing sub-menus */
+		// 	&:hover > ul {
+		// 		top: auto;
+		// 		visibility:visible;
+		// 	}
+
+		// } /* end .menu ul li */
+
+		/* highlight current page */
+		// li.current-menu-item,
+		// li.current_page_item,
+		// li.current_page_ancestor {
+		// 	a {}
+		// }  /* end current highlighters */
+
+	} /* end .nav */
+
+// }
+
+/*********************
+POSTS & CONTENT Stylesheet
+*********************/
+
+#headline {
+	padding-top: 8em;
+}
+
+#content {
+
+
+	#inner-content {
+
+
+		#main {
+			width: 80%;
+
+			.music {
+
+
+				footer {
+					width: 55%;
+
+					a {
+						display: inline-block;
+
+						.music-link {
+		  					padding: 0em 2em 0em 2em;
+		  				}
+
+	  				}
+
+				}
+	  		}
+		}
+	}
+}
+
+
+
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {
+    visibility: visible;
+}
+
+
+/*
+you'll probably need to do quite a bit
+of overriding here if you styled them for
+mobile. Make sure to double check these!
+*/
+.footer-links {
+	ul {
+		li {
+			a {
+				&:hover {}
+			}
+			/*
+			be careful with the depth of your menus.
+			it's very rare to have multi-depth menus in
+			the footer.
+			*/
+			ul {}
+		}
+	}
+} /* end .footer-links */
+

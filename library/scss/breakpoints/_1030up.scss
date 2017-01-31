@@ -1,0 +1,56 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
+
+.wrap {
+   width: 1040px;
+}
+
+
+/*********************
+HEADER STYLES
+*********************/
+
+
+.header {
+
+
+	#inner-header {
+		
+
+		#fb-link {
+			left: 82%;
+		}
+
+		#insta-link {
+			left: 78%;
+		}
+
+		#twitter-link {
+			left: 74%;
+		}
+	}
+}
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+#content {
+
+	#inner-content {
+		
+
+		#main {
+			width: 70%;
+
+		}
+	}
+}
